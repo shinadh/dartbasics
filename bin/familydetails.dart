@@ -18,7 +18,7 @@ class Child1 extends Family {
     print("Child age=$cage");
     print("========================");
 
-    super.details();
+    // super.details();
   }
 }
 
@@ -39,4 +39,5 @@ void main(List<String> args) {
   var obj = Child1();
   var obj2 = Child2();
   obj.details();
+  obj2.details();
 }
